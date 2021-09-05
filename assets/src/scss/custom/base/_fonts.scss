@@ -1,0 +1,179 @@
+// https://google-webfonts-helper.herokuapp.com/fonts
+
+$globalFontsPath : "../../fonts";
+
+/* roboto-slab-regular - latin-ext_latin */
+@font-face {
+  font-family: 'Roboto-Slab-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('#{$globalFontsPath}/roboto-slab/roboto-slab-v10-latin-ext_latin-regular.eot');
+  /* IE9 Compat Modes */
+  src: local(''),
+  url('#{$globalFontsPath}/roboto-slab/roboto-slab-v10-latin-ext_latin-regular.eot?#iefix') format('embedded-opentype'),
+  /* IE6-IE8 */
+  url('#{$globalFontsPath}/roboto-slab/roboto-slab-v10-latin-ext_latin-regular.woff2') format('woff2'),
+  /* Super Modern Browsers */
+  url('#{$globalFontsPath}/roboto-slab/roboto-slab-v10-latin-ext_latin-regular.woff') format('woff'),
+  /* Modern Browsers */
+  url('#{$globalFontsPath}/roboto-slab/roboto-slab-v10-latin-ext_latin-regular.ttf') format('truetype'),
+  /* Safari, Android, iOS */
+  url('#{$globalFontsPath}/roboto-slab/roboto-slab-v10-latin-ext_latin-regular.svg#RobotoSlab') format('svg');
+  /* Legacy iOS */
+}
+
+/* roboto-slab-500 - latin-ext_latin */
+@font-face {
+  font-family: 'Roboto-Slab-Medium';
+  font-style: normal;
+  font-weight: 500;
+  src: url('#{$globalFontsPath}/roboto-slab/roboto-slab-v10-latin-ext_latin-500.eot');
+  /* IE9 Compat Modes */
+  src: local(''),
+  url('#{$globalFontsPath}/roboto-slab/roboto-slab-v10-latin-ext_latin-500.eot?#iefix') format('embedded-opentype'),
+  /* IE6-IE8 */
+  url('#{$globalFontsPath}/roboto-slab/roboto-slab-v10-latin-ext_latin-500.woff2') format('woff2'),
+  /* Super Modern Browsers */
+  url('#{$globalFontsPath}/roboto-slab/roboto-slab-v10-latin-ext_latin-500.woff') format('woff'),
+  /* Modern Browsers */
+  url('#{$globalFontsPath}/roboto-slab/roboto-slab-v10-latin-ext_latin-500.ttf') format('truetype'),
+  /* Safari, Android, iOS */
+  url('#{$globalFontsPath}/roboto-slab/roboto-slab-v10-latin-ext_latin-500.svg#RobotoSlab') format('svg');
+  /* Legacy iOS */
+}
+
+/* roboto-slab-600 - latin-ext_latin */
+@font-face {
+  font-family: 'Roboto-Slab-Semibold';
+  font-style: normal;
+  font-weight: 600;
+  src: url('#{$globalFontsPath}/roboto-slab/roboto-slab-v10-latin-ext_latin-600.eot');
+  /* IE9 Compat Modes */
+  src: local(''),
+  url('#{$globalFontsPath}/roboto-slab/roboto-slab-v10-latin-ext_latin-600.eot?#iefix') format('embedded-opentype'),
+  /* IE6-IE8 */
+  url('#{$globalFontsPath}/roboto-slab/roboto-slab-v10-latin-ext_latin-600.woff2') format('woff2'),
+  /* Super Modern Browsers */
+  url('#{$globalFontsPath}/roboto-slab/roboto-slab-v10-latin-ext_latin-600.woff') format('woff'),
+  /* Modern Browsers */
+  url('#{$globalFontsPath}/roboto-slab/roboto-slab-v10-latin-ext_latin-600.ttf') format('truetype'),
+  /* Safari, Android, iOS */
+  url('#{$globalFontsPath}/roboto-slab/roboto-slab-v10-latin-ext_latin-600.svg#RobotoSlab') format('svg');
+  /* Legacy iOS */
+}
+
+/* roboto-slab-900 - latin-ext_latin */
+@font-face {
+  font-family: 'Roboto-Slab-Black';
+  font-style: normal;
+  font-weight: 900;
+  src: url('#{$globalFontsPath}/roboto-slab/roboto-slab-v10-latin-ext_latin-900.eot');
+  /* IE9 Compat Modes */
+  src: local(''),
+  url('#{$globalFontsPath}/roboto-slab/roboto-slab-v10-latin-ext_latin-900.eot?#iefix') format('embedded-opentype'),
+  /* IE6-IE8 */
+  url('#{$globalFontsPath}/roboto-slab/roboto-slab-v10-latin-ext_latin-900.woff2') format('woff2'),
+  /* Super Modern Browsers */
+  url('#{$globalFontsPath}/roboto-slab/roboto-slab-v10-latin-ext_latin-900.woff') format('woff'),
+  /* Modern Browsers */
+  url('#{$globalFontsPath}/roboto-slab/roboto-slab-v10-latin-ext_latin-900.ttf') format('truetype'),
+  /* Safari, Android, iOS */
+  url('#{$globalFontsPath}/roboto-slab/roboto-slab-v10-latin-ext_latin-900.svg#RobotoSlab') format('svg');
+  /* Legacy iOS */
+}
+
+
+$Roboto-Slab-Regular: 'Roboto-Slab-Regular';
+$Roboto-Slab-Medium: 'Roboto-Slab-Medium';
+$Roboto-Slab-Semibold: 'Roboto-Slab-Semibold';
+$Roboto-Slab-Black: 'Roboto-Slab-Black';
+
+
+
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('#{$globalFontsPath}/icomoon/icomoon.eot?bguny4');
+  src: url('#{$globalFontsPath}/icomoon/icomoon.eot?bguny4#iefix') format('embedded-opentype'),
+  url('#{$globalFontsPath}/icomoon/icomoon.ttf?bguny4') format('truetype'),
+  url('#{$globalFontsPath}/icomoon/icomoon.woff?bguny4') format('woff'),
+  url('#{$globalFontsPath}/icomoon/icomoon.svg?bguny4#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-diploma:before {
+  content: "\e900";
+  color: #12407d;
+}
+
+.icon-Icon_Linkedin:before {
+  content: "\e901";
+}
+
+.icon-Icon_Mail:before {
+  content: "\e902";
+  color: #2871b4;
+}
+
+.icon-Icon_Phone:before {
+  content: "\e903";
+  color: #1675be;
+}
+
+.icon-Icon_Web:before {
+  content: "\e904";
+  color: #2871b4;
+}
+
+.icon-interests:before {
+  content: "\e905";
+  color: #12407d;
+}
+
+.icon-mortarboard:before {
+  content: "\e906";
+  color: #12407d;
+}
+
+.icon-outline:before {
+  content: "\e907";
+  color: #12407d;
+}
+
+.icon-rating:before {
+  content: "\e908";
+  color: #12407d;
+}
+
+.icon-report:before {
+  content: "\e909";
+  color: #12407d;
+}
+
+.icon-seminar:before {
+  content: "\e90a";
+  color: #12407d;
+}
+
+.icon-suitcase:before {
+  content: "\e90b";
+  color: #12407d;
+}

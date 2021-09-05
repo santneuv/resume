@@ -1,0 +1,184 @@
+section {
+    position: relative;
+    color: $site-clr-blue-dark;
+    font-family: $Roboto-Slab-Regular;
+
+    .borderline {
+        border: 1px solid #CEE4F3;
+        border-radius: 4px;
+
+        @include BootstrapMaxWidthResponsive(sm) {
+            border: none;
+        }
+    }
+
+    .resume-wrapper {
+        position: relative;
+        padding-left: 6rem;
+        margin: 0 0 0 30px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 2px;
+            height: 100%;
+            background: #F1F7FC;
+        }
+
+        @include BootstrapMaxWidthResponsive(md) {
+            padding-left: 1.5rem;
+            margin: 0 0 0 10px;
+        }
+
+        @include BootstrapMaxWidthResponsive(sm) {
+            padding-left: 1.5rem;
+            margin: 0 0 0 20px;
+        }
+
+        .resume-container {
+            position: relative;
+            margin-bottom: 2.5rem;
+
+            .icon-wrap {
+                position: absolute;
+                border: 2px solid #F1F7FC;
+                border-radius: 50%;
+                left: -130px;
+                top: 4px;
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #fff;
+
+                @include BootstrapMaxWidthResponsive(md) {
+                    left: -52px;
+                    width: 60px;
+                    height: 60px;
+                }
+
+                @include BootstrapMaxWidthResponsive(sm) {
+                    left: -46px;
+                    width: 50px;
+                    height: 50px;
+                }
+
+                i {
+                    font-size: 38px;
+
+
+                    @include BootstrapMaxWidthResponsive(md) {
+                        font-size: 30px;
+                    }
+
+                    @include BootstrapMaxWidthResponsive(sm) {
+                        font-size: 24px;
+                    }
+                }
+            }
+
+            .img-wrap {
+                position: absolute;
+                left: -180px;
+                top: 4px;
+
+                @include BootstrapMaxWidthResponsive(md) {
+                    left: -67px;
+                    width: 80px;
+                }
+
+                @include BootstrapMaxWidthResponsive(sm) {
+                    left: -54px;
+                    width: 60px;
+                }
+
+                img {
+                    border-radius: 50%;
+                }
+            }
+
+            .resume-body {
+                padding: 20px 20px 15px;
+
+                @include BootstrapMaxWidthResponsive(sm) {
+                    padding: 10px 0 10px 15px;
+                }
+
+                h1 {
+                    font-family: $Roboto-Slab-Semibold;
+                    font-size: 36px;
+
+                    @include BootstrapMaxWidthResponsive(sm) {
+                        font-size: 30px;
+                    }
+                }
+
+                h2 {
+                    color: $site-clr-blue-dark;
+                    font-size: 24px;
+
+                    @include BootstrapMaxWidthResponsive(sm) {
+                        font-size: 22px;
+                    }
+                }
+
+                h3 {
+                    font-family: $Roboto-Slab-Semibold;
+                    font-size: 20px;
+
+                    @include BootstrapMaxWidthResponsive(sm) {
+                        font-size: 18px;
+                    }
+                }
+
+                h4 {
+                    color: $site-clr-blue;
+                    font-size: 16px;
+                }
+
+                h5 {
+                    font-size: 16px;
+                }
+
+                a {
+                    color: $site-clr-blue-gray;
+                }
+
+                .experience {
+                    border-left: 11px solid #F1F7FC;
+                    margin: 2rem 0;
+                    padding-left: 10px;
+
+                    @include BootstrapMaxWidthResponsive(sm) {
+                        border-left: 4px solid #F1F7FC;
+                    }
+
+                    .mini-title {
+                        color: $site-clr-blue;
+                        font-size: 14px;
+                    }
+
+                    .sub-text {
+                        color: $site-clr-blue-gray;
+                    }
+                }
+            }
+        }
+    }
+
+    .copyright-text {
+        position: absolute;
+        right: 3%;
+        bottom: 0;
+        font-size: 16px;
+
+        @include BootstrapMaxWidthResponsive(md) {
+            bottom: -18px;
+
+        }
+    }
+}
